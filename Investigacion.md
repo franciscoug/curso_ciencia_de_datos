@@ -95,3 +95,47 @@ Markdown es un conjunto de reglas de formato de texto que se traducen fácilment
 
 - **Código:**
 - 'Código en línea'
+
+
+# Magic Cells en Jupyter Notebooks
+
+Los "magic cells" son comandos especiales en Jupyter Notebooks que proporcionan funcionalidades adicionales y mejoras en la ejecución de celdas de código y markdown. Estos comandos comienzan con `%` para las "magic commands" de línea única y `%%` para las "magic commands" de celda completa.
+
+# Magic Cells en Jupyter Notebooks
+
+Los "Magic Cells" en Jupyter Notebooks son comandos especiales que permiten realizar acciones específicas o modificar el comportamiento del entorno de ejecución de manera temporal. Estos comandos son precedidos por el símbolo `%` para las magics de línea y `%%` para las magics de celda.
+
+## ¿Qué son las Magic Cells?
+
+Las Magic Cells son extensiones del lenguaje Python en Jupyter Notebooks que proporcionan funcionalidades adicionales para la interactividad y el control del entorno. Algunas de las magics más comunes incluyen:
+
+### Magics de Línea
+
+- `%run`: Ejecuta un script externo como un programa de Python.
+- `%load`: Carga el contenido de un archivo en una celda.
+- `%time` y `%timeit`: Miden el tiempo de ejecución de una línea o celda de código.
+
+### Magics de Celda
+
+- `%%writefile`: Escribe el contenido de la celda en un archivo.
+- `%%html` y `%%svg`: Renderizan HTML o SVG en una celda.
+
+
+## Ejemplos de Uso
+
+### Magic Command de Línea Única (%)
+
+- **Medir el Tiempo de Ejecución:**
+  ```python
+  %timeit tu_funcion()
+
+
+
+
+
+
+
+
+
+
+
